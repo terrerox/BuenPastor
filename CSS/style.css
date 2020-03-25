@@ -1,0 +1,148 @@
+¨*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: #36a1b6;
+    color: white;
+    
+}
+body{
+    font-family: 'Baskervville', serif;
+    background-color: #36a1b6;
+}
+
+
+
+.curso{
+    font-weight: bold;
+    color: darkcyan;
+    font-style: normal;
+}
+#btn1{
+    background: deepskyblue;
+}
+#btn1:hover{
+    background: rgb(82, 168, 255);
+}
+
+.sobre-nosotros{
+    margin-top: 3%;
+    text-align: center;
+}
+.portafolio{
+    background-color:#36a1b6;
+    color: #fff;
+}
+footer{
+    background-color: #DAEFF7;
+    font-size: 125%;
+}
+
+.cursos{
+
+text-align: center;
+padding: 15px; 
+
+}
+.a{
+    position: relative;
+    padding: 30px 50px;
+   display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+}
+.a span{
+    position: relative;
+    z-index: 1;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+.a .liquid{
+  position: absolute;
+  left: 0;
+  top: -80px;
+  width:200px;
+  height: 200px;
+  background: deepskyblue;
+  border-radius:200% ;
+  box-shadow: inset 0 0 50px rgba(0,0,0,.5);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-border-radius:200% ;
+  -moz-border-radius:200% ;
+  -ms-border-radius:200% ;
+  -o-border-radius:200% ;
+}
+
+.a .liquid:before,
+.a .liquid:after{
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%,-75%);
+    -webkit-transform: translate(-50%,-75%);
+    -moz-transform: translate(-50%,-75%);
+    -ms-transform: translate(-50%,-75%);
+    -o-transform: translate(-50%,-75%);
+}
+.a .liquid:before{
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+    background: rgb(255, 255, 255);
+    animation: animate 5s linear infinite;
+    -webkit-animation: animate 5s linear infinite;
+}
+.a .liquid:after{
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    background: rgba(255, 255, 255, 0.5);
+    animation: animate 10s linear infinite;
+    -webkit-animation: animate 10s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(-50%, -75%) rotate(0deg);
+        -webkit-transform: translate(-50%, -75%) rotate(0deg);
+        -moz-transform: translate(-50%, -75%) rotate(0deg);
+        -ms-transform: translate(-50%, -75%) rotate(0deg);
+        -o-transform: translate(-50%, -75%) rotate(0deg);
+}
+    100%
+    {
+        transform: translate(-50%, -75%) rotate(360deg);
+        -webkit-transform: translate(-50%, -75%) rotate(360deg);
+        -moz-transform: translate(-50%, -75%) rotate(360deg);
+        -ms-transform: translate(-50%, -75%) rotate(360deg);
+        -o-transform: translate(-50%, -75%) rotate(360deg);
+}
+}
+
+/***********LOGIN***********/
+
+
+
+
+
+
