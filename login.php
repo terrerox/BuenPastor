@@ -80,7 +80,7 @@ font-size: 6em;
            <a href=""></a>
                 <input type="email" name="correo" id="" placeholder="Correo" required> 
             </div>
-
+<h1>lo que sea</h1>
             <div class="grupo">
             <i class="fa fa-eye-slash mt-3" id="show2" style="position:absolute; margin-left: 230px; cursor: pointer;"></i>
                 <input type="password" name="password" class="" id="pass3"  placeholder="Contraseña" required>
