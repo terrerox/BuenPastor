@@ -165,7 +165,7 @@ session_start();
   </div>
   <div class="col-md-4">
  <a href="UñasAcrilicas.php" class="a"> <span class="tec"><img src="IMG/nail.png" class="wow bounceInRight"></span><div class="liquid"></div></a>
-  <h3 class="service-tittle">Uñas Acrílicas</h3>
+  <h3 class="service-tittle">Uñas Acrílicas</h3>hhhhh
   <p class="content">Las uñas de porcelana o acrílicas se utilizan para embellecer las manos, alargar la uñas naturales y corregir los malos hábitos. Indicado en casos de onicofagia, traumatismos ungueales.</p>
   </div>
 </div>
